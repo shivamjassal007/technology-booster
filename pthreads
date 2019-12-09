@@ -1,0 +1,10 @@
+What are pthreads?
+
+Pthreads are a simple and effective way of creating a multi-threaded application. 
+This introduction to pthreads shows the basic functionality – executing two tasks in parallel and merging back into a single 
+thread when the work has been done.
+First I’ll run through the basics of threading applications with pthreads. 
+Multi-threaded applications allow two or more tasks to be executed concurrently (ie: at the same time). 
+When a thread is created using pthread_create, both the original thread and the new thread share the same code base and 
+the same memory – it’s just like making two function calls at the same time. 
+Multi-threaded applications come with a whole host of concurrency issues, which will be discussed further in a future post.
